@@ -1,0 +1,130 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.price-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.price-container h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.price-container .bill-switch-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+.price-container .bill-switch-container .switch {
+  position: relative;
+  width: 45px;
+  height: 25px;
+  display: inline-block;
+}
+.price-container .bill-switch-container .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.price-container .bill-switch-container .switch .round {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #be3760;
+  background: transparent;
+  border-radius: 30px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.price-container .bill-switch-container .switch .round::before {
+  content: "";
+  position: absolute;
+  top: 2.3px;
+  left: 2px;
+  background: #ccc;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+.price-container .bill-switch-container .switch input:checked + .round {
+  background: #be3760;
+}
+.price-container .bill-switch-container .switch input:checked + .round::before {
+  transform: translateX(20px);
+}
+
+.prices-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom :100px ;
+}
+
+.price-card {
+  background: RGB(34, 37, 44);
+  padding: 3rem;
+  width:30%;
+ height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: 0.3s;
+
+}
+.price-card:hover {
+  box-shadow: 2px 5px 8px 4px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.price-card-header {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  color: #fff;
+}
+.price-card-header .title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.price-card-header .price {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.price-card-header .price small {
+  font-size: 1.7rem;
+}
+
+.price-card-content {
+  line-height: 2;
+  font-size: 2rem;
+}
+.price-card-content ul {
+  padding: 0 10px;
+  color: #8c9494;
+  list-style: none;
+  /* Remove default bullets */
+}
+.price-card-content ul li::before {
+  content: "•";
+  color: #ff004c;
+  font-weight: 300;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+

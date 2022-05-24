@@ -1,3 +1,19 @@
+
+
+
+.nutrition {
+    color: #000;
+    height: 50px;
+    margin-bottom: 30px;
+ 
+}
+
+.nutrition :hover {
+    color: #f81f1f;
+}
+
+
+
 a.link {cursor:help;text-decoration:none;}
 a.link.btn {border-color #d900ae;}
 a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
@@ -1835,6 +1851,7 @@ hr {
     padding-top: 100px;
     padding-bottom: 95px;
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .w-padding {
         padding-top: 70px;
@@ -1843,6 +1860,24 @@ hr {
 }
 @media (max-width: 575px) {
     .w-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+.q-padding {
+    
+    padding-bottom: 95px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .q-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+@media (max-width: 575px) {
+    .q-padding {
         padding-top: 70px;
         padding-bottom: 70px;
     }
