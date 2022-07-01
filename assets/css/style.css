@@ -2429,7 +2429,7 @@ hr {
     padding: 0 !important;
 }
 .slider-height {
-    height: 1080px;
+    height: 700px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-height {
@@ -3513,6 +3513,7 @@ hr {
 }
 .team-area .single-team .team-img img {
     width: 100%;
+    height: 430px;
 }
 .team-area .single-team .team-caption {
     position: absolute;
@@ -3621,6 +3622,23 @@ hr {
     color: #c4c4c4;
     font-size: 14px;
 }
+.footerlogo {
+    height: 50px;
+}
+.logo1 {
+    height: 50px;
+}
+
+.brand {
+    align-items: center;
+
+    color: #fff;
+    font-weight: 900;
+
+    font-size: 20px;
+    padding-left: 10px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
         padding-right: 0px;

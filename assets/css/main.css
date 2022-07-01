@@ -2728,11 +2728,17 @@ hr {
     left: 0;
     right: 0;
 }
+
+.trainer {
+    height: 100px;
+}
+
 .single-team .team-img {
     overflow: hidden;
 }
 .single-team .team-img img {
     width: 100%;
+    
     transform: rotate(0deg) scale(1);
     transition: all 0.6s ease-out 0s;
 }
