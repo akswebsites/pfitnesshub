@@ -7,6 +7,7 @@ a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
 }
 .logo1 {
     height: 50px;
+    width: auto;
 }
 
 .brand {
