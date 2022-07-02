@@ -2042,7 +2042,7 @@ hr {
 }
 @media (max-width: 575px) {
     .section-tittle span {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 .section-tittle span::before {
@@ -2062,6 +2062,7 @@ hr {
     color: #2c234d;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-tittle h2 {
@@ -2346,7 +2347,7 @@ hr {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    background-attachment: fixed;
+   
 }
 .slider-area .hero__caption {
     overflow: hidden;
