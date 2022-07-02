@@ -1,136 +1,23 @@
+a.link {cursor:help;text-decoration:none;}
+a.link.btn {border-color #d900ae;}
+a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.footerlogo {
+    height: 50px;
+}
+.logo1 {
+    height: 50px;
 }
 
-.pricingtag {
-    min-height: 100vh;
-    background: url("https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-family: Roboto;
-    font-size: 16px;
+.brand {
+    align-items: center;
 
-}
+    color: #fff;
+    font-weight: 900;
 
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 4%;
-    padding: 12% 0;
-}
-
-.card {
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 25px;
-}
-
-.card_title {
-    font-weight: normal;
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-}
-
-.pricing {
-    font-weight: normal;
-    font-size: 96px;
-    color: rgb(255, 255, 255);
-
-}
-
-.pricing .small {
-    font-size: 16px;
-}
-
-hr {
-    margin-top: 70px;
-}
-
-.features {
-    margin: 40px 0;
-    list-style-position: inside;
-}
-
-.features li {
-    padding-bottom: 10px;
-}
-
-a.cta_btn {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    background: rgba(255, 0, 0, 0.7);
-    border-radius: 29px;
-    padding: 20px 0;
-    color: white;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: background .3s ease;
-}
-
-a.cta_btn:hover {
-    background: #000;
-}
-
-.link i {
-    padding-left: 7px;
-}
-
-.link:hover {
-    text-decoration: underline;
-    background-color: black;
-}
-@media only screen and (max-width: 1024px) {
-    .grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 2%;
-
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .grid {
-        grid-template-columns: 1fr;
-        gap: 2%;
-        padding-bottom: 25%;
-    }
-
-    .container {
-        padding: 0 1rem;
-    }
-
-    body {
-        font-size: 14px;
-    }
-
-    .card {
-        padding: 30px;
-    }
-
-    .card_title {
-        font-size: 24px;
-        margin-bottom: 12px;
-    }
-
-    .pricing {
-        font-size: 52px;
-    }
-
-    hr {
-        margin-top: 50px;
-    }
-
-    a.cta_btn {
-        font-size: 11px;
-    }
+    font-size: 20px;
+    padding-left: 10px;
+   
 }
 
 .nutrition {
@@ -145,10 +32,6 @@ a.cta_btn:hover {
 }
 
 
-
-a.link {cursor:help;text-decoration:none;}
-a.link.btn {border-color #d900ae;}
-a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
 
 [data-ml-modal] {
 	position:fixed;
@@ -1983,7 +1866,6 @@ hr {
     padding-top: 100px;
     padding-bottom: 95px;
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .w-padding {
         padding-top: 70px;
@@ -1992,24 +1874,6 @@ hr {
 }
 @media (max-width: 575px) {
     .w-padding {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-}
-
-.q-padding {
-    
-    padding-bottom: 95px;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .q-padding {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-}
-@media (max-width: 575px) {
-    .q-padding {
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -2429,7 +2293,7 @@ hr {
     padding: 0 !important;
 }
 .slider-height {
-    height: 700px;
+    height: 1080px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-height {
@@ -3513,7 +3377,7 @@ hr {
 }
 .team-area .single-team .team-img img {
     width: 100%;
-    height: 430px;
+    height: 450px;
 }
 .team-area .single-team .team-caption {
     position: absolute;
@@ -3622,23 +3486,6 @@ hr {
     color: #c4c4c4;
     font-size: 14px;
 }
-.footerlogo {
-    height: 50px;
-}
-.logo1 {
-    height: 50px;
-}
-
-.brand {
-    align-items: center;
-
-    color: #fff;
-    font-weight: 900;
-
-    font-size: 20px;
-    padding-left: 10px;
-}
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
         padding-right: 0px;
