@@ -1,3 +1,90 @@
+.services-area .chest {
+    background-image: url(https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2022/06/15144207/chest-muscles-960-715x358.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.services-area .shoulder {
+    background-image: url(https://www.themanual.com/wp-content/uploads/sites/9/2022/03/shoulder-pose.jpg?fit=800%2C800&p=1);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.services-area .lats {
+    background-image: url(https://cdn.shopify.com/s/files/1/1633/7705/files/how_to_get_big_lats_480x480.jpg?v=1631510444);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.services-area .biceps {
+    background-image: url(https://www.dicasdetreino.com.br/wp-content/uploads/2016/02/treino-b%C3%ADceps.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.services-area .tricep {
+    background-image: url(https://www.muscleandfitness.com/wp-content/uploads/2019/12/arms-triceps-gym-cable-machine.jpg?w=1300&h=731&crop=1&quality=86&strip=all);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+
+.services-area .legs {
+    background-image: url(https://www.muscleandfitness.com/wp-content/uploads/2019/08/Holding-Weights-Showing-Quads.jpg?w=1109&h=614&crop=1&quality=86&strip=all);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+
+.services-area .exercises {
+   justify-content: center;
+   display: flex;
+}
+
+.exercise-name {
+background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
+margin-top: 20px;
+padding: 10px 5px;
+color: rgb(255, 255, 255);
+font-weight: 900;
+}
+
+.exercise-body
+{background-image: url(https://images.alphacoders.com/692/692039.jpg);  background-repeat: no-repeat;
+background-attachment: fixed; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a.link {cursor:help;text-decoration:none;}
 a.link.btn {border-color #d900ae;}
 a.link:hover {background-color: #0085a6; color: #fff; text-decoration:none;}
@@ -2318,22 +2405,25 @@ hr {
     }
 }
 .slider-height2 {
-    height: 450px;
+    height: 228px;
     background-size: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-height2 {
-        height: 350px;
+        height: 158px;
+        margin-bottom: 30px ;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-height2 {
-        height: 260px;
+        height: 158px;
+        margin-bottom: 30px ;
     }
 }
 @media (max-width: 575px) {
     .slider-height2 {
-        height: 260px;
+        height: 158px;
+        margin-bottom: 30px ;
     }
 }
 .slider-area2 {
@@ -2703,7 +2793,7 @@ hr {
     transition: 0.4s;
     position: relative;
     z-index: 1;
-    background: #fff;
+    
     overflow: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2714,18 +2804,18 @@ hr {
 
 
 .services-area .single-cat .cat-icon i {
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     margin-bottom: 30px;
     display: block;
 }
 .services-area .single-cat .cat-cap h5 > a {
     font-family: "Teko", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
     margin-bottom: 21px;
     display: block;
-    color: #06080a;
+    color: #ffffff;
     text-transform: uppercase;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -2752,8 +2842,9 @@ hr {
 }
 .services-area .single-cat .cat-cap p {
     margin-bottom: 36px;
-    color: #303133;
+    color: #ffffff;
     font-size: 16px;
+    font-weight: 500;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
@@ -2810,9 +2901,7 @@ hr {
 .services-area .single-cat:hover .cat-icon i {
     color: #f81f1f;
 }
-.services-area .single-cat.single-cat2 {
-    background: #f7fbff;
-}
+
 .wantToWork-area .wantToWork-caption h2 {
     color: #fff;
     font-size: 60px;
