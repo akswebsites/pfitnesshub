@@ -2729,8 +2729,11 @@ hr {
     font-weight: 300;
 }
 .about-area .about-img img {
-    width: 100%;
+    width: 80%;
+    height: 517px;
 }
+
+
 .about-area2 .about-caption {
     padding-left: 90px;
 }
@@ -2766,8 +2769,10 @@ hr {
     position: relative;
 }
 .about-area2 .about-img2 img {
-    width: 100%;
+    width: 80%;
+    height: 517px;
 }
+
 .about-area2 .about-img2 .shape-qutaion {
     position: absolute;
     bottom: 167px;
