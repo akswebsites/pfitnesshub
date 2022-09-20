@@ -1,0 +1,43 @@
+
+
+
+.popup {
+ 
+    background-color: #ffffff;
+    width: 50%;
+   
+    padding: 30px 40px;
+    
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    
+    text-align: center;
+    z-index: 2; 
+    display: inline-block;
+    position: sticky;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: #ff0000;
+    font-size: large;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.popup p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+font-weight: 900;
+}
+
+.ALERT {
+    font-size: 4rem;
+    color: #ff0000;
+}

@@ -185,13 +185,6 @@
           }
         });
       }
-// 12 Pop Up Video
-    var popUp = $('.popup-video');
-    if(popUp.length){
-      popUp.magnificPopup({
-        type: 'iframe'
-      });
-    }
 
 /* 13. counterUp*/
     $('.counter').counterUp({

@@ -1,3 +1,8 @@
+
+
+
+
+
 .services-area .chest {
     background-image: url(https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2022/06/15144207/chest-muscles-960-715x358.png);
     background-position: center;
@@ -75,7 +80,7 @@ font-weight: 900;
 
 .exercise-body
 {background-image: url(https://images.alphacoders.com/692/692039.jpg);  background-repeat: no-repeat;
-background-attachment: fixed; }
+background-attachment: fixed; position: relative; }
 
 
 
