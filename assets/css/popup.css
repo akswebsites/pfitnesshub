@@ -1,26 +1,97 @@
 
-
-
-.popup {
+@media only screen and (min-width: 200px) {
  
-    background-color: #ffffff;
-    width: 50%;
-   
-    padding: 30px 40px;
-    
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    border-radius: 8px;
-    font-family: "Poppins",sans-serif;
-    
-    text-align: center;
-    z-index: 2; 
-    display: inline-block;
-    position: sticky;
+    .popup {
+ 
+        background-color: #ffffff;
+        width: 90%;
+       
+        padding: 30px 40px;
+        margin-left: 50%;
+        
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins",sans-serif;
+        
+        text-align: center;
+        z-index: 2; 
+       
+        position: sticky;
+    }
+
 }
+
+@media only screen and (min-width: 768px) {
+    .popup {
+ 
+        background-color: #ffffff;
+        width: 90%;
+       
+        padding: 30px 40px;
+        
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins",sans-serif;
+        
+        text-align: center;
+        z-index: 2; 
+        display: inline-block;
+        position: sticky;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .popup {
+ 
+        background-color: #ffffff;
+        width: 90%;
+       
+        padding: 30px 40px;
+        
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins",sans-serif;
+        
+        text-align: center;
+        z-index: 2; 
+        display: inline-block;
+        position: sticky;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .popup {
+ 
+        background-color: #ffffff;
+        width: 90%;
+       
+        padding: 30px 40px;
+        
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins",sans-serif;
+        
+        text-align: center;
+        z-index: 2; 
+        display: inline-block;
+        position: sticky;
+    }
+}
+
+
+
+
 .popup button{
-    display: block;
+  
     margin:  0 0 20px auto;
     background-color: #ff0000;
     font-size: large;
